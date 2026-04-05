@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smriti Pandey | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio website for Smriti Pandey featuring projects, skills, education, and contact details."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand-mark" href="#top" aria-label="Smriti Pandey home">
+        <span>SP</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Aspiring Developer Portfolio</p>
+          <h1 id="hero-name">Smriti Pandey</h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-summary" id="hero-summary"></p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="assets/Smriti-Pandey-Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+        </div>
+        <aside class="hero-card reveal delay-1" aria-label="Quick introduction">
+          <p class="card-label">Currently focused on</p>
+          <h2 id="focus-title"></h2>
+          <p id="focus-description"></p>
+          <div class="hero-highlights" id="hero-highlights"></div>
+        </aside>
+      </section>
+
+      <section id="about" class="section split-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Building a foundation with real projects.</h2>
+        </div>
+        <div class="section-panel reveal delay-1">
+          <p id="about-text"></p>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and technologies I’m growing with.</h2>
+        </div>
+        <div class="chip-grid reveal delay-1" id="skills-list"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Work that shows how I learn and build.</h2>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="section info-grid">
+        <article class="info-card reveal">
+          <p class="eyebrow">Education</p>
+          <div id="education-list"></div>
+        </article>
+        <article class="info-card reveal delay-1">
+          <p class="eyebrow">Achievements</p>
+          <ul id="achievement-list" class="stack-list"></ul>
+        </article>
+      </section>
+
+      <section id="contact" class="section contact-section reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+          <p id="contact-text"></p>
+        </div>
+        <div class="contact-card">
+          <a id="email-link" class="contact-link" href="#"></a>
+          <a id="linkedin-link" class="contact-link" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a id="github-link" class="contact-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
